@@ -1,0 +1,40 @@
+  .hero {
+      background-color: #f8f9fa;
+      padding: 60px 0;
+    }
+    .section-title {
+      margin-bottom: 30px;
+    }
+    .cta {
+      background-color: #e9ecef;
+      padding: 40px;
+      border-radius: 10px;
+    }
+    footer {
+      background-color: #212529;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+.cta-gradient {
+  background: linear-gradient(to right, #e97424, #fbc16d);
+}
+
+.btn-white {
+  background-color: #fff;
+  color: #e97424;
+  border: none;
+  border-radius: 8px;
+  min-width: 260px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-white:hover {
+  background-color: #f5f5f5;
+  color: #d85d0d;
+  text-decoration: none;
+}
+
