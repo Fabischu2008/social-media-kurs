@@ -38,3 +38,96 @@
   text-decoration: none;
 }
 
+/* Grundlayout-Fix */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  overflow-x: hidden;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background: #f8f8f8;
+}
+
+.logo {
+  font-weight: bold;
+  color: #ff9900;
+}
+
+.logo span {
+  color: #333;
+}
+
+.menu-btn {
+  font-size: 24px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.hero {
+  padding: 2rem;
+  background: url('background.jpg') center/cover no-repeat;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+}
+
+.hero h1 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.hero ul {
+  list-style: none;
+  margin-bottom: 2rem;
+}
+
+.hero li {
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.cta-btn {
+  display: inline-block;
+  background-color: #ffa500;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.badges {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+  background-color: #fff;
+  flex-wrap: wrap;
+}
+
+.badges img {
+  max-width: 100px;
+  height: auto;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+
+
